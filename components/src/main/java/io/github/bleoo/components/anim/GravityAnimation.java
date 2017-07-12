@@ -1,4 +1,4 @@
-package cc.sachsen.util.anim;
+package io.github.bleoo.components.anim;
 
 import android.util.Log;
 import android.view.View;
