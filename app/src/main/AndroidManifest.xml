@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".GravityAnimationActivity" />
+        <activity android:name=".FlowLayoutActivity" />
     </application>
 
 </manifest>

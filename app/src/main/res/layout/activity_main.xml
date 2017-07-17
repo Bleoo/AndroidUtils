@@ -15,10 +15,19 @@
             android:id="@+id/btn_gravity_animation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gravity Animation"
             android:elevation="4dp"
-            android:textAllCaps="false"/>
+            android:text="Gravity Animation"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
 
+        <Button
+            android:id="@+id/btn_flow_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:text="FlowLayout"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
