@@ -98,7 +98,7 @@ public class GravityAnimation {
         startAnimation();
     };
 
-    public void stopAnimation() {
+    private void stopAnimation() {
         if (animation != null) {
             animation.cancel();
         }
@@ -107,7 +107,7 @@ public class GravityAnimation {
         }
     }
 
-    public void startAnimation() {
+    private void startAnimation() {
         for (ViewHolder holder : mChildViewList) {
             holder.view.startAnimation(animation);
         }
