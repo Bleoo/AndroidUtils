@@ -41,7 +41,7 @@ public class HoldFlowLayout extends FlowLayout {
     }
 
     private void initAttr(Context context, AttributeSet attrs) {
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.FlowLayout);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.HoldFlowLayout);
         if (typedArray != null) {
             int layoutId = typedArray.getResourceId(R.styleable.HoldFlowLayout_holdView, 0);
             if (layoutId != 0) setHoldView(layoutId);

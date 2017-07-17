@@ -29,6 +29,15 @@
             android:textAllCaps="false"
             android:textSize="16sp" />
 
+        <Button
+            android:id="@+id/btn_hold_flow_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:text="HoldFlowLayout"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_gravity_animation).setOnClickListener(this);
         findViewById(R.id.btn_flow_layout).setOnClickListener(this);
+        findViewById(R.id.btn_hold_flow_layout).setOnClickListener(this);
     }
 
     @Override
@@ -23,6 +24,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_flow_layout:
                 startActivity(new Intent(this, FlowLayoutActivity.class));
+                break;
+            case R.id.btn_hold_flow_layout:
+                startActivity(new Intent(this, HoldFlowLayoutActivity.class));
                 break;
         }
     }
